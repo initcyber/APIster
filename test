@@ -1,0 +1,31 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from selenium.webdriver.chrome.options import Options
+import time
+
+# Set up Chrome options
+chrome_options = Options()
+chrome_options.add_argument("--headless")  # Run Chrome in headless mode (without GUI)
+
+# Path to your ChromeDriver executable
+chrome_path = "/path/to/chromedriver"
+
+# Initialize ChromeDriver
+driver = webdriver.Chrome(service=ChromeService(executable_path=chrome_path), options=chrome_options)
+
+# Navigate to the webpage
+url = "https://example.com"
+driver.get(url)
+
+# Allow some time for dynamic content to load
+time.sleep(5)
+
+# Capture network requests
+network_requests = driver.execute_script("return window.performance.getEntries();")
+
+# Print the captured network requests
+for request in network_requests:
+    print(request['name'])
+
+# Close the browser
+driver.quit()
