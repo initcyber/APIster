@@ -4,10 +4,12 @@ This python program (currently being developed) will be utilized to "scrape" a w
 <br />
 <br />
 
-![APIster](https://github.com/initcyber/APIster/blob/main/logo.png)
+
 
 <div align='center'>
-  
+
+![APIster](https://github.com/initcyber/APIster/blob/main/logo.png)
+
 <a href='https://github.com/initcyber/APIster/releases'>
   
 <img src='https://img.shields.io/github/v/release/initcyber/APIster?color=%23FDD835&label=version&style=for-the-badge'>
@@ -22,7 +24,7 @@ This python program (currently being developed) will be utilized to "scrape" a w
 
 <a href="https://github.com/initcyber/APIster/pulls">
 
-<img src="https://img.shields.io/badge/PRs-welcome-red">
+<img src="https://img.shields.io/badge/PRs-welcome-red?style=for-the-badge">
 
 </a>
   
