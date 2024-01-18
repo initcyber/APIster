@@ -43,6 +43,7 @@ In order to use the APIster:
 - install dependencies (Ubuntu)
   - sudo apt install chromium-chromedriver
 - Install requirements.txt (pip install -r requirements.txt)
+- Run program with "python main.py" and follow prompts
 - I may be missing some requirements/dependencies for this github repository... If you see anything please open an [issue](https://github.com/initcyber/APIster/issues) on github
 
 This has been tested using Ubuntu 22.04/WSL2. I have not tested this using any other linux platforms.
