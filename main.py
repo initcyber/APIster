@@ -19,17 +19,19 @@ ports_found = []  # list for Found Ports after using scan_port / port_scanner.py
 def display_banner():
     banner = """
 
-░░      ░░       ░░        ░        ░  ░░░░  ░        ░        ░        ░
-▒  ▒▒▒▒  ▒  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒  ▒▒▒▒▒▒▒  ▒▒▒▒  ▒▒▒▒▒▒  ▒▒▒▒▒▒▒  ▒▒▒▒▒▒▒  ▒▒
-▓  ▓▓▓▓  ▓       ▓▓▓▓▓  ▓▓▓▓      ▓▓▓  ▓▓▓▓  ▓▓▓▓  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓▓  ▓▓▓▓
-█        █  ██████████  ████  ███████  ████  ██  ███████  ███████  ██████
-█  ████  █  ███████        █  ████████      ██        █        █        █
+    ___    ____  ____     __           
+   /   |  / __ \/  _/____/ /____  _____
+  / /| | / /_/ // // ___/ __/ _ \/ ___/
+ / ___ |/ ____// /(__  ) /_/  __/ /    
+/_/  |_/_/   /___/____/\__/\___/_/     
+                                       
+
                                                                         
 """
     print(RED + banner + ENDC)
     print("Justin Johnson / justin@initcyber.com / https://www.github.com/initcyber\n")
     print(
-        "Use this software at your own risk, if you get sent to Kaz-BAN-istan, or worse, thats on you..."
+        "Use this software at your own risk, if you get sent to Kaz-BAN-istan, or worse, that's on you..."
     )
 
 
