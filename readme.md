@@ -107,10 +107,4 @@ This software is provided 'as is', without warranty of any kind, express or impl
 
 This tool is intended to be used for legal purposes only, and the user assumes all responsibility for its use. You must ensure that your use of this tool complies with all local, state, and federal laws and regulations. Any use of this tool for unauthorized activities is strictly prohibited.
 
----
-
 <br />
-
-## Changelog
-
-January 2024 - Initial release (0.1.0-alpha), changed name from API_Fuzzz to APIster.
