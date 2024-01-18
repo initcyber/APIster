@@ -113,4 +113,4 @@ This tool is intended to be used for legal purposes only, and the user assumes a
 
 ## Changelog
 
-January 2024 - Initial release (0.1), changed name from API_Fuzzz to APIster.
+January 2024 - Initial release (0.1.0-alpha), changed name from API_Fuzzz to APIster.
