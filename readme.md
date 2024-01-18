@@ -17,3 +17,5 @@ Try common ports in a list?
 
 1/17/24 - Close: 
 Able to import port_scanner.py, cant integratee into api_scanner.py. api_scanner_bk.py works as intended.
+
+Export list obtained from port_scanner.py into a csv and have api_scanner.py read the csv and utilize the results????
