@@ -4,7 +4,7 @@ from the API endpoint.
 
 ## Notes/To-Do
 (Somehow) integrate developer mode from Mozilla or Chrome to intercept HTTP Requests
-Then hit the endpoint API with requests() module and see what we get
+Then hit the endpoint API with requests() module and see what we get. -  DONE!
 
 Use a proxy of sorts? mitmproxy.org?
 
