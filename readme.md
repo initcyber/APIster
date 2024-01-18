@@ -3,6 +3,7 @@ This python program (currently being developed) will be utilized to "scrape" a w
 
 <br />
 <br />
+
 ![APIster](https://github.com/initcyber/APIster/blob/main/logo.png)
 
 <div align='center'>
