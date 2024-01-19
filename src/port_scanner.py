@@ -3,7 +3,7 @@ import socket
 
 def scan_ports(target):
     open_ports = []
-    for port in range(8686, 8990):
+    for port in range(1, 10000):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)
         result = s.connect_ex((target, port))
@@ -13,4 +13,4 @@ def scan_ports(target):
     return open_ports
 
 
-# Refactored. Taken from https://www.github.com/initcyber/Python/CybersecurityTools/Python Scanner/port_scanner.py
+# I believe this is refactored enough... Could be wrong
