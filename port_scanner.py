@@ -11,3 +11,6 @@ def scan_ports(target):
             open_ports.append(port)
         s.close()
     return open_ports
+
+
+# I believe this is refactored enough... Could be wrong

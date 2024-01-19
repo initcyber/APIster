@@ -97,6 +97,7 @@ In order for this project to function better (pentesting purposes so to speak, w
 - Implement a web front end (Django)
 - Dockerize
 - Export list obtained from port_scanner.py and api_scanner.py into a csv for further investigation.
+- Refactor
 
 ---
 

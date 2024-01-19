@@ -24,4 +24,4 @@ I will receive a private notification and start looking into the reported vulner
 ---
 ## Scope
 
-All the code and files in this repository and its dependencies that I actively maintain are covered by this security policy. If you discover a security issue in a dependency that I do not directly maintain, please report it responsibly to the relevant project. I work hard to keep this project secure, but please understand that as a solo developer, I may face challenges in terms of resources, response times, and solutions. I appreciate your assistance in improving the security of this project.
+All the code and files in this repository and its dependencies that I actively maintain are covered by this security policy. If you discover a security issue in a dependency that I do not directly maintain, please report it responsibly to the relevant project. I work hard to keep this project secure, but please understand that as a solo developer, I may face challenges in terms of resources, response times, and solutions. I appreciate your assistance in improving the security of this project!

@@ -1,4 +1,4 @@
-# Changelog
+# Change Log
 
 ## [0.1.0](https://github.com/initcyber/APIster/tree/v0.1.0-alpha) (2024-01-18)
 

@@ -11,3 +11,6 @@ def scan_ports(target):
             open_ports.append(port)
         s.close()
     return open_ports
+
+
+# Refactored. Taken from https://www.github.com/initcyber/Python/CybersecurityTools/Python Scanner/port_scanner.py

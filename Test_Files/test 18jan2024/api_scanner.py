@@ -53,7 +53,7 @@ def scan_api(ip_address, ports):
     return api_endpoints
 
 
-### Can run this alone using python api_scanner.py <ip address> <port 1> <port 2> <port 3> <port 4> <port 5> etc....
+### Can run this alone using python api_scanner.py <ip address> <port 1> <port 2> <port 3> <port 4> <port 5> etc...
 if __name__ == "__main__":
     ip_address = sys.argv[1]
     ports = sys.argv[2:]

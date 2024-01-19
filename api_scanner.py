@@ -58,3 +58,5 @@ if __name__ == "__main__":
     ip_address = sys.argv[1]
     ports = sys.argv[2:]
     scan_api(ip_address, ports)
+
+# Need to refactor

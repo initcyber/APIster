@@ -51,4 +51,4 @@ for port in range(1, 10001):
 driver.quit()
 
 
-### Utilize this to go through ports. This is INCREDIBLY slow...
+### Utilize this to go through ports. This is INCREDIBLY slow... Can change time.sleep() to time.sleep(1) to speed up. Test at own risk.

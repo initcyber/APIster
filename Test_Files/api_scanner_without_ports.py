@@ -17,7 +17,7 @@ driver = webdriver.Chrome(
     service=ChromeService(executable_path=chrome_path), options=chrome_options
 )
 
-# Navigate to the webpage
+# Navigate to the webpage/url
 url = "http://172.16.10.10:8989"
 driver.get(url)
 
