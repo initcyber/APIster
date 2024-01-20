@@ -17,10 +17,11 @@ def scan_api(ip_address, ports):
     # Path to your ChromeDriver executable
     chrome_path = "/usr/local/bin/chromedriver-linux64/chromedriver"
 
-    # Initialize ChromeDriver
+    # Initialize ChromeDriver with implicit wait
     driver = webdriver.Chrome(
         service=ChromeService(executable_path=chrome_path), options=chrome_options
     )
+    driver.implicitly_wait(30)  # Set the global timeout to 30 seconds
 
     for port in ports:
         # Navigate to the webpage

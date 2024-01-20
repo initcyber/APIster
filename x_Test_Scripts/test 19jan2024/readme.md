@@ -1,0 +1,3 @@
+# What tests are going on here?
+
+I'm trying to figure out how to better grab API's using GET and POST requests and not rely on searching via regex for "API"...

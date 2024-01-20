@@ -93,11 +93,15 @@ In order for this project to function better (pentesting purposes so to speak, w
 
 - Incorporate a proxy
 - (Possibly) find a common list of "API" endpoints (such as "http://yourdomain.com/xyz" where "xyz" is another common API endpoint)
+- Use GET and POST requests on the target to illicet a response.
 - Refactor Code
 - Implement a web front end (Django)
 - Dockerize
 - Export list obtained from port_scanner.py and api_scanner.py into a csv for further investigation.
 - Refactor
+
+## Known issues
+Whenever this is ran against 1 single port (with API's) it works fairly well given that the URL string contains "API". Whenever its ran against an IP Address/Host that has (for example) Docker running a bunch of services with API's, it crashes. This could be due to the lack of memory (out of memory?), or the length of the test timing out for some reason? I have no idea why this does that, but continuing to troubleshoot.
 
 ---
 
